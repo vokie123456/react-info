@@ -30,7 +30,6 @@ function getComments(arr,page) {
 	let page_num = page.Page_NUM;
 	let page_max = Math.ceil( arr1.length / page.Page_NUM );
 	let page_now = page.Page_NOW;
-	console.log(page_now);
 	if (page_now > page_max) {
 		page_now = page_max;
 	}
