@@ -1,6 +1,7 @@
 import React , { Component } from 'react';
 import { Link } from 'react-router';
 const logo  = require('../../images/logo.jpg');
+
 class HomeNav extends Component {
 
 	render() {
