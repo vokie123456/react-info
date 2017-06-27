@@ -78,6 +78,7 @@ class HomeSlide extends Component {
 	 * [updataPage 自动更新页码]
 	 */
 	updataPage() {
+		clearInterval(this.timer);
 		var slide = this.state.slide;
 		this.timer = setInterval(()=>{
 			this.changePageNow(slide.pageNow + 1)
@@ -87,6 +88,10 @@ class HomeSlide extends Component {
 	 * [removeUpdatePage 移除自动更新页码]
 	 */
 	removeUpdatePage() {
+		clearInterval(this.timer);
+	}
+
+	componentWillUnmount(){
 		clearInterval(this.timer);
 	}
 

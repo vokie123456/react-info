@@ -1,0 +1,141 @@
+p{
+	margin: 0px;
+}
+.gameRec .title{
+	padding: 0px;
+	margin: 0px;
+}
+.gameRec .title .recSlide{
+	height: 50px;
+	line-height: 50px;
+	padding: 15px 0px;
+	margin-left: 220px;
+	padding-left: 30px;
+	overflow: hidden;
+}
+.gameRec .title .recSlide .info{
+	font-size: 14px;
+	font-weight: 200;
+}
+.gameRec .title .recSlide .info a{
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space:nowrap;
+	color: #999;
+	text-decoration: none;
+	-webkit-transition: color 0.5s ease-in-out;
+	-o-transition: color 0.5s ease-in-out;
+	transition: color 0.5s ease-in-out;
+}
+.gameRec .title .recSlide .info a:hover{
+	color: #f60;
+}
+.gameRec .gameList{
+	overflow: hidden;
+	width: 940px;
+}
+.gameRec .gameList li {
+	float: left;
+	overflow: hidden;
+	margin-right: 16px;
+	cursor: pointer;
+	position: relative;
+}
+.gameRec .gameList li .icon{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.gameRec .gameList li img{
+	float: left;
+}
+.gameRec .gameList li .gameDes{
+	position: absolute;
+	font-size: 16px;
+	line-height: 36px;
+	bottom: 0px;
+	margin: 0px;
+	text-align: center;
+	width: 100%;
+	color: #e2e2e2;
+	background-color: rgba(0,0,0,0.6);
+	-webkit-transition: bottom 0.5s ease-in-out;
+	-o-transition: bottom 0.5s ease-in-out;
+	transition: bottom 0.5s ease-in-out;
+}
+.gameRec .gameList li:hover .gameDes{
+	bottom: -36px;
+}
+.gameRec .gameList li:hover .gameNews{
+	bottom: 0px;
+}
+.gameRec .gameList li .gameNews{
+	padding: 10px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; 
+	-webkit-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	background-color: rgba(0,0,0,0.6);
+	-webkit-transition: bottom 0.5s ease-in-out;
+	-o-transition: bottom 0.5s ease-in-out;
+	transition: bottom 0.5s ease-in-out;
+	position: absolute;
+	width: 100%;
+	bottom: -66px;
+	font-size: 14px;
+}
+.gameRec .gameList li .gameNews .left p{
+	font-weight: 600;
+	color: #e2e2e2;
+	margin-bottom: 5px;
+}
+.gameRec .gameList li .gameNews .left {
+	float: left;
+}
+.gameRec .gameList li .gameNews .right {
+	float: right;
+}
+.gameRec .gameList li .gameNews .left p:last-child{
+	font-size: 12px;
+	font-weight: 200;
+}
+.gameRec .gameList li .gameNews .left a{
+	color: #b8b8b8;
+	text-decoration: none;
+}
+.gameRec .gameList li .gameNews .left a:first-child{
+	margin-right: 6px;
+}
+.gameRec .gameList li .gameNews .left a:last-child{
+	margin-left: 6px;
+}
+.gameRec .gameList li .gameNews .left a:hover{
+	
+	color: #f60;
+}
+.gameRec .gameList li .gameNews .right p {
+	color: #e2e2e2;
+}
+.gameRec .gameList li .gameNews .right p:first-child{
+	margin-bottom: 6px;
+}
+.gameRec .gameList li .gameNews .right a{
+	display: inline-block;
+	text-align: center;
+	background-color: #FF833B;
+	color: #fff;
+	padding: 5px 20px;
+	font-size: 12px;
+	text-decoration: none;
+	border-radius: 4px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.gameRec .gameList li .gameNews .right a:hover{
+	background-color: #d47843;
+	color: #eac3c3;
+}

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import HomeSlide from './homeSlide/homeSlide';
+import GameRec from './gameRec/gameRec';
 
 class Home extends Component {
 	
@@ -7,6 +8,15 @@ class Home extends Component {
 		return (
 			<div className='home'>
 				<HomeSlide/>
+				<div className="wapper">
+					<div className="container">
+						<div className="wapperLeft">
+							<GameRec/>
+						</div>
+						<div className="wapperRight">
+						</div>
+					</div>
+				</div>
 			</div>
 		)
 	}
