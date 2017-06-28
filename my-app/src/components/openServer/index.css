@@ -1,0 +1,94 @@
+
+.openServer h2{
+	margin: 0px;
+	color: #f60;
+	line-height: 80px;
+	font-size: 22px;
+}
+.openServer .serverList{
+	border: 1px #c4c4c4 solid;
+	background-color: #f1f1f1;
+	overflow: hidden;
+	height: 278px;
+	position: relative;
+}
+.openServer .server{
+	cursor: pointer;
+}
+.openServer .server .on{
+	line-height: 48px;
+	height: 48px;
+	margin: 0 15px;
+	font-size: 0px;
+	border-bottom: 1px dashed #c4c4c4;
+}
+.openServer .server span{
+	display: inline-block;
+	font-size: 12px;
+	color: #000;
+}
+.openServer span.serverName{
+	width: 75px;
+	color: #f60;
+}
+.openServer span.fl{
+	width: 50px;
+}
+.openServer .server.active .on{
+	display: none;
+}
+.openServer .server.active .hover{
+	display: flex;
+}
+.openServer .server .hover{
+	position: relative;
+	display: flex;
+	padding: 4px 15px;
+	border-bottom: 1px solid #c4c4c4;
+	display: none;
+}
+.openServer .server .hover .qqts {
+	position: absolute;
+	right: 15px;
+	top: 6px;
+}
+.openServer .server .hoverLeft{
+	flex: 0 0 40px;
+	margin-right: 6px;
+}
+.openServer .server .hoverRigth{
+	flex: 1;
+	line-height: 29px;
+	font-size: 12px;
+}
+.openServer .server .hoverRigth .top {
+	border-bottom: 1px dashed #c4c4c4;
+}
+.openServer .serverBtnGroup span{
+	font-size: 30px;
+	text-align: center;
+	display: inline-block;
+	margin: 0px 10px;
+	color: #666;
+	-webkit-transition: color 0.5s ease-in-out;
+	-o-transition: color 0.5s ease-in-out;
+	transition: color 0.5s ease-in-out;
+	cursor: pointer;
+}
+.openServer .serverBtnGroup span.num{
+	font-size: 18px;
+}
+.openServer .serverBtnGroup span.num:hover{
+	color: #666;
+}
+.openServer .serverBtnGroup span:hover{
+	color: #f60;
+}
+.openServer .serverBtnGroup {
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	padding: 15px 0px;
+	margin-top: 1px;
+	width: 100%;
+}

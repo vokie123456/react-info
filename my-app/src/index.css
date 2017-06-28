@@ -9,6 +9,7 @@ body {
   min-height: 100%;
   padding-bottom: 118px;
   position: relative;
+  padding-top: 78px;
 }
 .container{
 	width: 1180px;
@@ -24,6 +25,12 @@ ul {
 .homeNav{
 	padding: 10px 0px;
 	overflow: hidden;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 9999;
+	background-color: #fff;
+	width: 100%;
 }
 .homeNav ul {
 	float: right;
@@ -85,9 +92,14 @@ ul {
 	width: 925px;
 	float: left;
 }
-.home .wapper{
+.home .wapperRight{
+	width: 225px;
+	float: right;
+}
+.home .part1{
 	overflow: hidden;
 	background-color: #f5f5f5;
+	padding-bottom: 25px;
 }
 /*home end*/
 
@@ -194,3 +206,27 @@ ul {
 .commentPage li.active{
 	background-color: blue;
 }
+
+@font-face {font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_ayiz64d5ewswnrk9.eot?t=1498620062835'); /* IE9*/
+  src: url('//at.alicdn.com/t/font_ayiz64d5ewswnrk9.eot?t=1498620062835#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/font_ayiz64d5ewswnrk9.woff?t=1498620062835') format('woff'), /* chrome, firefox */
+  url('//at.alicdn.com/t/font_ayiz64d5ewswnrk9.ttf?t=1498620062835') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/font_ayiz64d5ewswnrk9.svg?t=1498620062835#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-left:before { content: "\e617"; }
+
+.icon-arrow-right:before { content: "\e61a"; }
+
+.icon-Left:before { content: "\e600"; }
+
+.icon-right:before { content: "\e613"; }

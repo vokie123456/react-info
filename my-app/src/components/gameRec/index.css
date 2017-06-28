@@ -8,9 +8,8 @@ p{
 .gameRec .title .recSlide{
 	height: 50px;
 	line-height: 50px;
-	padding: 15px 0px;
-	margin-left: 220px;
 	padding-left: 30px;
+	margin:15px 0px 15px 220px;
 	overflow: hidden;
 }
 .gameRec .title .recSlide .info{
