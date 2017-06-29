@@ -15,6 +15,12 @@ body {
 	width: 1180px;
 	margin: 0 auto;
 }
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
 ul {
 	padding: 0px;
 	margin: 0px;
@@ -72,17 +78,17 @@ ul {
 }
 /*homeNav ned*/
 
-.part2 h2 {
+.part h2 {
 	margin: 0px;
 	line-height: 50px;
-	font-size: 24px;
+	font-size: 16px;
 }
-.part2 h2 a{
+.part h2 a{
 	float: right;
 	font-size: 14px;
 	text-decoration: none;
 }
-.part2 h2 a:hover{
+.part h2 a:hover{
 	text-decoration: underline;
 }
 

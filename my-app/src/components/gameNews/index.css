@@ -1,0 +1,80 @@
+/*gamenews 首页游戏新闻*/
+.gameNews .gameNewsBody{
+	border: 1px solid #ccc;
+	border-right: none;
+}
+.gameNews .gameNew{
+	overflow: hidden;
+	border-right: 1px solid #ccc;
+	width: 307px;
+	float: left;
+}
+
+.gameNews .gameNew .gameNewTop{
+	line-height: 39px;
+	padding: 0px 4px;
+	border-bottom: 1px dashed #ccc;
+}
+.gameNews .gameNew .gameNewTop .left{
+	font-size: 16px;
+	font-weight: 600;
+	color: #000;
+}
+.gameNews .gameNew .gameNewTop .right{
+	font-size: 12px;
+}
+.gameNews .gameNew .gameNewTop .right{
+	color: #717171;
+}
+.gameNews .gameNew .gameNewTop .right a{
+	color: #717171;
+	text-decoration: none;
+}
+.gameNews .gameNew .gameNewTop .right a:hover{
+	text-decoration: underline;
+}
+.gameNews .gameNew .gameNewTop .newNav{
+	margin-right: 20px;
+	float: left;
+}
+.gameNews .gameNew .gameNewTop .newNav .active{
+	color: #f60;
+}
+.gameNews .gameNew .gameNewTop .newNav span{
+	cursor: pointer;
+}
+.gameNews .gameNew .gameNewTop .newNav i{
+	font-style: normal;
+	margin: 0px 4px;
+}
+.gameNews .gameNewUl{
+	height: 154px;
+	overflow: hidden;
+}
+.gameNews .gameNewUl li{
+	line-height: 30px;
+	font-size: 12px;
+	overflow: hidden;
+}
+.gameNews .gameNewUl li + li{
+	border-top: 1px dashed #ccc;
+}
+.gameNews .gameNewUl li a{
+	color: #2F3533;
+	text-decoration: none;
+	display: block;
+	float: left;
+	max-width: 245px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.gameNews .gameNewUl li span{
+	display: block;
+	float: right;
+	color: #939393;
+	margin-right: 4px;
+}
+.gameNews .gameNewUl li a:hover{
+	text-decoration: underline;
+}
