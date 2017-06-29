@@ -5,8 +5,8 @@ html{
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-  min-height: 100%;
+  font-family: Microsoft YaHei,SimSun,Verdana,Arial;
+  min-height: calc(100% - 78px);
   padding-bottom: 118px;
   position: relative;
   padding-top: 78px;
@@ -19,6 +19,19 @@ ul {
 	padding: 0px;
 	margin: 0px;
 	list-style: none;
+}
+.f60{
+	color: #f60;
+}
+.clearfix{
+	zoom: 1;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
 }
 
 /*homeNav start*/
@@ -58,6 +71,21 @@ ul {
 	color: #f60;
 }
 /*homeNav ned*/
+
+.part2 h2 {
+	margin: 0px;
+	line-height: 50px;
+	font-size: 24px;
+}
+.part2 h2 a{
+	float: right;
+	font-size: 14px;
+	text-decoration: none;
+}
+.part2 h2 a:hover{
+	text-decoration: underline;
+}
+
 
 /*footer start*/
 .footer {

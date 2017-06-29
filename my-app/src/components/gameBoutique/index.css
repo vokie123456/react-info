@@ -1,0 +1,51 @@
+.gameBoutique .gameGroup li {
+	float: left;
+	width: 297px;
+	padding-left: 10px;
+	height: 147px;
+	border: 1px solid #dee2e0;
+	border-left: none;
+	margin-bottom: 20px;
+	font-size: 12px;
+	line-height: 20px;
+}
+.gameBoutique .gameGroup li .gameName{
+	font-size: 16px;
+	font-weight: 600;
+	margin-top: 16px;
+	line-height: 26px;
+}
+.gameBoutique .gameGroup li .gameType{
+	color: #919492;
+}
+.gameBoutique .gameGroup li .hrefGroup{
+	color: #919492;
+}
+.gameBoutique .gameGroup li .hrefGroup a{
+	color: #919492;
+	text-decoration: none;
+}
+.gameBoutique .gameGroup li .hrefGroup a:hover{
+	text-decoration: underline;
+}
+.gameBoutique .gameGroup li .btn{
+	width: 100px;
+	color: #fff;
+	display: inline-block;
+	background-color: #f60;
+	text-align: center;
+	text-decoration: none;
+	padding: 2px 0px;
+	border-radius: 4px;
+	margin-top: 4px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.gameBoutique .gameGroup li .btn:hover{
+	background-color: #c84310
+}
+
+.gameBoutique .gameGroup ul {
+	width: 927px;
+}

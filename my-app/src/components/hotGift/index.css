@@ -1,0 +1,39 @@
+.hotGift ul {
+	border: 1px solid #c4c4c4;
+	background-color: #f1f1f1;
+	padding-bottom: 1px;
+}
+
+.hotGift ul li{
+	display: flex;
+	margin: 0px 15px;
+	padding: 8px 0px;
+	border-bottom: 1px dashed #ccc;
+}
+.hotGift ul li .icon{
+	flex: 0 0 62px;
+}
+.hotGift ul li:last-child{
+	border-bottom: none;
+}
+
+.hotGift ul li .des{
+	font-size: 12px;
+	line-height: 22px;
+}
+.hotGift ul li .des p {
+	margin: 3px 0px;
+}
+.hotGift ul li .des a{
+	width: 109px;
+	display: inline-block;
+	text-align: center;
+	color: #fff;
+	background-color: #04a654;
+	border-radius: 4px;
+	border: 1px solid #038744;
+	text-decoration: none;
+}
+.hotGift ul li .des a:hover{
+	background-color: #06924b;
+}

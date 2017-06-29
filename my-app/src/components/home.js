@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import HomeSlide from './homeSlide/homeSlide';
 import GameRec from './gameRec/gameRec';
 import OpenServer from './openServer/openServer';
+import GameBoutique from './gameBoutique/gameBoutique';
+import HotGift from './hotGift/hotGift';
 class Home extends Component {
 	
 	render() {
@@ -16,6 +18,16 @@ class Home extends Component {
 							</div>
 							<div className="wapperRight">
 								<OpenServer/>
+							</div>
+						</div>
+					</div>
+					<div className='part2 clearfix'>
+						<div className="container">
+							<div className="wapperLeft">
+								<GameBoutique />
+							</div>
+							<div className="wapperRight">
+								<HotGift/>
 							</div>
 						</div>
 					</div>
