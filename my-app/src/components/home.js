@@ -5,6 +5,9 @@ import OpenServer from './openServer/openServer';
 import GameBoutique from './gameBoutique/gameBoutique';
 import HotGift from './hotGift/hotGift';
 import GameNews from './gameNews/gameNews';
+import IntegralGo from './integralGo/integralGo';
+import FriendHrefs from './friendHrefs/friendHrefs';
+
 class Home extends Component {
 	
 	render() {
@@ -41,8 +44,14 @@ class Home extends Component {
 								<GameNews />
 							</div>
 							<div className="wapperRight">
-								<HotGift/>
+								<IntegralGo />
 							</div>
+						</div>
+					</div>
+					{/*友情连接*/}
+					<div className='part clearfix'>
+						<div className="container">
+							<FriendHrefs />
 						</div>
 					</div>
 				</div>

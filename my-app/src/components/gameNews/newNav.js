@@ -5,7 +5,7 @@ class NewNav extends Component {
 
 	componentDidMount(event){
 		// 点击切换导航的样式
-		$(".newNav span").click(function(event){
+		$(".newNav span").mouseover(function(event){
 			$(this).addClass('active').siblings().removeClass('active');
 		})
 	}
@@ -15,9 +15,9 @@ class NewNav extends Component {
 		const changeGameNewUl = this.props.changeGameNewUl;
 		return(
 			<div className='newNav'>
-				<span className='active' onClick={() => changeGameNewUl(newsNavArr[0])}>综合新闻</span>
+				<span className='active' onMouseOver={() => changeGameNewUl(newsNavArr[0])}>综合新闻</span>
 				<i>|</i>
-				<span onClick={() => changeGameNewUl(newsNavArr[1])}>精品攻略</span>
+				<span onMouseOver={() => changeGameNewUl(newsNavArr[1])}>精品攻略</span>
 			</div>
 		)
 	}

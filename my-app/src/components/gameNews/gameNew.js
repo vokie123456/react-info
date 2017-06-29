@@ -42,7 +42,6 @@ class GameNew extends Component {
 				<div className='gameNewDown'>
 					{/*内容*/}
 					<GameNewUl gameNewUl={gameNewUl}/>
-					}
 				</div>
 			</li>
 		)

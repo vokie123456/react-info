@@ -1,0 +1,32 @@
+.integralGo .interGral li {
+	display: flex;
+	padding: 6px;
+}
+.integralGo .interGral li + li {
+	border-top: 1px dashed #ccc;
+}
+.integralGo .interGral{
+	overflow: hidden;
+	border: 1px solid #c4c4c4;
+	background-color: #f1f1f1;
+	height: 194px;
+}
+.integralGo .interGral .icon{
+	flex: 0 0 50px;
+	margin-right: 10px;
+}
+.integralGo .interGral .icon img{
+	width: 100%;
+	margin-top: 10px;
+}
+.integralGo .interGral .des{
+	font-size: 12px;
+	line-height: 20px;
+}
+.integralGo .interGral .des a {
+	color: #5df6a8;
+	text-decoration: none;
+}
+.integralGo .interGral .des a:hover{
+	text-decoration: underline;
+}
