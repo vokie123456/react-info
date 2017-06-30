@@ -1,0 +1,51 @@
+.vipArea .vipAreaBody{
+	border: 1px solid #ccc;	
+}
+.vipArea .left{
+	width: 164px;
+}
+.vipArea .right{
+	width: 1014px;
+}
+.vipArea .vipNav li {
+	width: 100%;
+	height: 58px;
+	overflow: hidden;
+	line-height: 58px;
+	position: relative;
+	font-size: 12px;
+	cursor: pointer;
+}
+.vipArea .vipNav li a,
+.vipArea .vipNav li span{
+	display: inline-block;
+	position: absolute;
+}
+.vipArea .vipNav li span{
+	height: 58px;
+	width: 4px;
+	z-index: 99;
+	-webkit-transition: width 0.5s ease-in-out;
+	-o-transition: width 0.5s ease-in-out;
+	transition: width 0.5s ease-in-out;
+}
+.vipArea .vipNav li.active span{
+	width: 98%;
+}
+.vipArea .vipNav li a {
+	width: 100%;
+	color: #000;
+	text-indent: 30px;
+	z-index: 100;
+}
+
+.vipArea .vipNav li.active a{
+	color: #fff;
+}
+
+.vipArea .vipNav{
+	background-color: #f4f4f4;
+}
+.vipArea .vipBody img{
+	float: left;
+}

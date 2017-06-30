@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import {Router , hashHistory , IndexRoute , Route} from 'react-router';
 import Home from './components/home';
 import About from './components/about';
-import ArticleList from './components/articleList';
+import GameList from './components/gameList';
 import UserList from './components/userList';
 import Opinion from './components/opinion';
 import Author from './components/author';
@@ -19,7 +19,7 @@ ReactDOM.render(<Router history={hashHistory}>
 				      <Route path="/about" component={About}/>
 				      <Route path="/opinion" component={Opinion}/>
 				      <Route path="/user/list" component={UserList}/>
-				      <Route path="/article/list" component={ArticleList} />
+				      <Route path="/game/list" component={GameList} />
 				      <Route path="/author" component={Author}/>
 				      <Route path="/corporate" component={Corporate}/>
 				    </Route>

@@ -11,6 +11,13 @@ class GameRec extends Component {
 
 	constructor(){
 		super();
+		/**
+		 * [state 推荐游戏]
+		 * @info {公告栏消息 array}
+		 * @time {number 公告栏切换的时间 默认3s}
+		 * @pageNow {当前公告栏 页码 number 默认 0}
+		 * @gameInfo {游戏推荐相关 array}
+		 */
 		this.state = {
 			info: [],
 			time: 3000,
@@ -25,7 +32,10 @@ class GameRec extends Component {
 	componentDidMount(){
 		this.upDateChangePage();
 	}
-
+	/**
+	 * [changePage 公告栏页码]
+	 * @param  {[number]} pageNow [目标页码]
+	 */
 	changePage(pageNow) {
 		if (pageNow > this.state.info.length) {
 			pageNow = 0;
@@ -34,7 +44,7 @@ class GameRec extends Component {
 			pageNow
 		})
 	}
-
+	// 定时更新页码
 	upDateChangePage(){
 		clearInterval(this.timer);
 		this.timer = setInterval(() => {
@@ -42,55 +52,28 @@ class GameRec extends Component {
 			this.changePage(pageNow + 1);
 		},this.state.time);
 	}
-
+	// 移除更新页码的操作
 	removeUpDatePage() {
 		clearInterval(this.timer);
 	}
-
+	// 移除更新页码的操作
 	componentWillUnmount(){
 		clearInterval(this.timer);
 	}
 
 	componentWillMount() {
+		// 初始化公告栏信息
 		$.getJSON('./gameRec.json','',(data) => {
 			var info = this.state.info;
 			info = data;
 			this.setState({ info });
 		});
-		const gameInfo = [{
-			        id: 61,
-			        name: '\u76D7\u5893\u7B14\u8BB0',
-			        type: '\u89D2\u8272\u626E\u6F14',
-			        url: 'http: //dmbj.duoqu.com/',
-			        bbsUrl: 'http: //bbs.duoqu.com/forum-435-1.html',
-			        server: 'http: //dmbj.duoqu.com/',
-			        description: ''
-			    },{
-			        id: 62,
-			        name: '\u795E\u4ED9\u52AB',
-			        type: '\u89D2\u8272\u626E\u6F14',
-			        url: 'http: //sxj.duoqu.com/',
-			        bbsUrl: 'http: //bbs.9wee.com/forum-436-1.html',
-			        server: 'http: //sxj.duoqu.com/',
-			        description: ''
-			    },{
-			        id: 63,
-			        name: '\u7B2C\u4E00\u8230\u961F',
-			        type: '\u6218\u4E89\u7B56\u7565',
-			        url: 'http: //dyjd.duoqu.com/',
-			        bbsUrl: 'http: //bbs.9wee.com/forum-440-1.html',
-			        server: 'http: //dyjd.duoqu.com/',
-			        description: ''
-			    },{
-			        id: 70,
-			        name: 'H5\u6E38\u620F\u4E13\u533A',
-			        type: 'H5',
-			        url: 'http: //cbl.duoqu.com/h5/',
-			        bbsUrl: 'http: //cbl.duoqu.com/h5/',
-			        server: 'http: //cbl.duoqu.com/h5/',
-			        description: ''
-			    }];
-		this.setState({ gameInfo });
+		// 初始化游戏推荐信息
+		$.getJSON("./gameInfo.json",'', (gameInfo) => {
+			gameInfo = gameInfo.reverse().splice(0,4);
+			this.setState({ gameInfo });
+		})
+		
 	}
 
 	render() {

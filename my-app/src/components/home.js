@@ -7,6 +7,7 @@ import HotGift from './hotGift/hotGift';
 import GameNews from './gameNews/gameNews';
 import IntegralGo from './integralGo/integralGo';
 import FriendHrefs from './friendHrefs/friendHrefs';
+import VipArea from './vipArea/vipArea';
 
 class Home extends Component {
 	
@@ -46,6 +47,12 @@ class Home extends Component {
 							<div className="wapperRight">
 								<IntegralGo />
 							</div>
+						</div>
+					</div>
+					{/*友情连接*/}
+					<div className='part clearfix'>
+						<div className="container">
+							<VipArea />
 						</div>
 					</div>
 					{/*友情连接*/}

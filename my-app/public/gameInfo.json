@@ -1,0 +1,200 @@
+[
+    {
+        "id": 30,
+        "name": "传奇霸业",
+        "type": "即时战斗",
+        "url": "http://cqby.duoqu.com/",
+        "bbsUrl": "http://bbs.duoqu.com/forum-347-1.html",
+        "server": "http://cqby.duoqu.com/server/",
+        "des": ""
+    },
+    {
+        "id": 31,
+        "name": "大皇帝",
+        "type": "战争策略",
+        "url": "http://dhd.duoqu.com/",
+        "bbsUrl": "http://bbs.duoqu.com/forum-354-1.html",
+        "server": "http://dhd.duoqu.com/server/",
+        "des": ""
+    },
+    {
+        "id": 32,
+        "name": "一球成名",
+        "type": "体育竞技",
+        "url": "http://yqcm.duoqu.com/",
+        "bbsUrl": "http://bbs.duoqu.com/forum-355-1.html",
+        "server": "http://yqcm.duoqu.com/server/",
+        "des": ""
+    },
+    {
+        "id": 33,
+        "name": "九星天辰诀",
+        "type": "即时战斗",
+        "url": "http://9x.duoqu.com/",
+        "bbsUrl": "http://bbs.duoqu.com/forum-353-1.html",
+        "server": "http://9x.duoqu.com/server/",
+        "des": ""
+    },
+    {
+        "id": 35,
+        "name": "武林神话",
+        "type": "角色扮演",
+        "url": "http://sh.duoqu.com/",
+        "bbsUrl": "http://bbs.duoqu.com/forum-283-1.html",
+        "server": "http://sh.duoqu.com/server/",
+        "des": "你，注定成为神话"
+    },
+    {
+        "id": 36,
+        "name": "像素骑士团",
+        "type": "Q版像素",
+        "url": "http://xs.duoqu.com/",
+        "bbsUrl": "http://bbs.9wee.com/forum-367-1.html",
+        "server": "http://sx.duoqu.com/server/",
+        "des": ""
+    },
+    {
+        "id": 37,
+        "name": "天书世界",
+        "type": "角色扮演",
+        "url": "http://ts.duoqu.com/",
+        "bbsUrl": "http://bbs.9wee.com/forum-366-1.html",
+        "server": "http://ts.duoqu.com/server/",
+        "des": ""
+    },
+    {
+        "id": 38,
+        "name": "莽荒纪",
+        "type": "角色扮演",
+        "url": "http://mhj.duoqu.com/",
+        "bbsUrl": "http://bbs.9wee.com/forum-374-1.html",
+        "server": "http://mhj.duoqu.com/server/",
+        "des": ""
+    },
+    {
+        "id": 41,
+        "name": "雄霸九州",
+        "type": "战争策略",
+        "url": "http://xbjz.duoqu.com/",
+        "bbsUrl": "http://bbs.9wee.com/forum-382-1.html",
+        "server": "http://xbjz.duoqu.com/server/",
+        "des": ""
+    },
+    {
+        "id": 42,
+        "name": "雷霆之怒",
+        "type": "角色扮演",
+        "url": "http://lt.duoqu.com/",
+        "bbsUrl": "http://bbs.duoqu.com/forum-386-1.html",
+        "server": "http://lt.duoqu.com/server/",
+        "des": ""
+    },
+    {
+        "id": 45,
+        "name": "足球全明星",
+        "type": "体育竞技",
+        "url": "http://mx.duoqu.com/",
+        "bbsUrl": "http://bbs.duoqu.com/forum-404-1.html",
+        "server": "http://mx.duoqu.com/server/",
+        "des": ""
+    },
+    {
+        "id": 46,
+        "name": "九阴绝学",
+        "type": "角色扮演",
+        "url": "http://jy.duoqu.com/",
+        "bbsUrl": "http://bbs.9wee.com/forum-394-1.html",
+        "server": "http://jy.duoqu.com/server/",
+        "des": ""
+    },
+    {
+        "id": 50,
+        "name": "范伟打天下",
+        "type": "角色扮演",
+        "url": "http://dtx.duoqu.com/",
+        "bbsUrl": "http://bbs.duoqu.com/forum-410-1.html",
+        "server": "http://dtx.duoqu.com/server/",
+        "des": ""
+    },
+    {
+        "id": 51,
+        "name": "决战武林",
+        "type": "角色扮演",
+        "url": "http://jzwl.duoqu.com/",
+        "bbsUrl": "http://bbs.9wee.com/forum-414-1.html",
+        "server": "http://jzwl.duoqu.com/server/",
+        "des": ""
+    },
+    {
+        "id": 53,
+        "name": "蓝月传奇",
+        "type": "角色扮演",
+        "url": "http://lycq.duoqu.com/",
+        "bbsUrl": "http://bbs.duoqu.com/forum-418-1.html",
+        "server": "http://lycq.duoqu.com/server/",
+        "des": ""
+    },
+    {
+        "id": 57,
+        "name": "魔法王座",
+        "type": "角色扮演",
+        "url": "http://mfwz.duoqu.com/",
+        "bbsUrl": "http://bbs.9wee.com/forum-426-1.html",
+        "server": "http://mfwz.duoqu.com/server/",
+        "des": ""
+    },
+    {
+        "id": 58,
+        "name": "修天决",
+        "type": "角色扮演",
+        "url": "http://xtj.duoqu.com/",
+        "bbsUrl": "http://bbs.duoqu.com/forum-428-1.html",
+        "server": "http://xtj.duoqu.com/server/",
+        "des": ""
+    },
+    {
+        "id": 59,
+        "name": "烽火东周",
+        "type": "角色扮演",
+        "url": "http://fhdz.duoqu.com/",
+        "bbsUrl": "http://bbs.duoqu.com/forum-432-1.html",
+        "server": "http://fhdz.duoqu.com/server/",
+        "des": ""
+    },
+    {
+        "id": 61,
+        "name": "盗墓笔记",
+        "type": "角色扮演",
+        "url": "http://dmbj.duoqu.com/",
+        "bbsUrl": "http://bbs.duoqu.com/forum-435-1.html",
+        "server": "http://dmbj.duoqu.com/",
+        "des": ""
+    },
+    {
+        "id": 62,
+        "name": "神仙劫",
+        "type": "角色扮演",
+        "url": "http://sxj.duoqu.com/",
+        "bbsUrl": "http://bbs.9wee.com/forum-436-1.html",
+        "server": "http://sxj.duoqu.com/",
+        "des": ""
+    },
+    {
+        "id": 63,
+        "name": "第一舰队",
+        "type": "战争策略",
+        "url": "http://dyjd.duoqu.com/",
+        "bbsUrl": "http://bbs.9wee.com/forum-440-1.html",
+        "server": "http://dyjd.duoqu.com/",
+        "des": ""
+    },
+    {
+        "id": 70,
+        "name": "H5游戏专区",
+        "type": "H5",
+        "url": "http://cbl.duoqu.com/h5/",
+        "bbsUrl": "http://cbl.duoqu.com/h5/",
+        "server": "http://cbl.duoqu.com/h5/",
+        "des": ""
+    }
+]

@@ -4,6 +4,7 @@ import $ from 'jquery';
 class RecSlide extends Component {
 
 	componentDidMount() {
+		// 添加滑入取消更新页码 划出更新页码的操作
 		const self = this;
 		$(this.info).hover(function(){
 			self.props.removeUpDatePage();
@@ -13,6 +14,8 @@ class RecSlide extends Component {
 	}
 
 	componentDidUpdate(){
+		// 每次更新之后根据当前页码获得 margin-top 然后进行动画，当运行一轮时候切换到 0
+		// 注意 信息循环了两次 最大边界是到第二轮的第一条 ！！！
 		var height = $(this.info).find('li').height();
 		$(this.info).animate({
 			marginTop: ( - height * this.props.pageNow) + 'px'

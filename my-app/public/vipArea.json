@@ -1,0 +1,32 @@
+{
+	"nav":[{
+			"code": "upgrade",
+			"name": "快速升级",
+			"color": "#FF6900"
+		  },{
+		  	"code": "exclusive",
+		  	"name": "专属活动",
+		  	"color": "#ffc502"
+		  },{
+		  	"code": "privilege",
+		  	"name": "尊贵特权",
+		  	"color": "#C00000"
+		  }],
+    "body": {
+    	"upgrade": {
+    		"img": "http://s1.static.duoqu.com/2015/02/HEyt4pLqGm.jpg",
+    		"href": "http://www.duoqu.com/user/vip/index#p1",
+    		"name": "快速升级"
+    	},
+    	"exclusive": {
+    		"img": "http://s1.static.duoqu.com/2015/01/fXSixAzrKu.jpg",
+    		"href": "http://act.duoqu.com/2015/vip/51/",
+    		"name": "专属活动"
+    	},
+    	"privilege": {
+			"img": "http://s1.static.duoqu.com/2015/01/EeZzFG7qgB.jpg",
+    		"href": "http://www.duoqu.com/user/vip/index#p2",
+    		"name": "尊贵特权"
+    	}
+    }
+}

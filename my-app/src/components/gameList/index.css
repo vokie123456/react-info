@@ -1,0 +1,64 @@
+.gameListNav{
+	background: #d9dcdb;
+	color: #545454;
+}
+.gameListBody .container{
+	width: 964px;
+	margin: 0 auto;
+}
+
+.gameListNav li {
+	margin: 10px 0px;
+	display: inline-block;
+	padding: 0 20px;
+}
+.gameListNav li + li {
+	border-left: 1px solid #b3a1a1;
+}
+.gameListNav li span{
+	cursor: pointer;
+}
+.gameListNav li span:hover{
+	color: #04A654;
+	text-decoration: underline;
+}
+.gameListNav li.active span{
+	color: #FF6600;
+}
+.gameListContent{
+	padding: 30px 0px;
+}
+.gameListContent li {
+	font-size: 12px;
+	display: inline-block;
+	width: 317px;
+	border-left:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	box-sizing:border-box;
+	padding: 0px 8px 10px 6px;
+	margin-bottom: 5px;
+}
+.green{
+	color: #528400;
+}
+.gameListContent li .gameName{
+	color: #f60;
+	font-size: 15px;
+	font-weight: 600;
+	text-decoration: none;
+	line-height: 28px;
+}
+.gameListContent ul{
+	padding: 0px 5px;
+}
+.gameListContent li p{
+	line-height: 20px;
+}
+.gameListContent li .gameName:hover{
+	text-decoration: underline;
+	color: #F92B91;
+}
+.gameListContent li .right img{
+	float: left;
+	margin-top: 5px;
+}
